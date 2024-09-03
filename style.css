@@ -66,7 +66,7 @@ body{
     justify-content: center;}
 .left h1{
     text-transform: capitalize;
-    font-size: 33px;
+    font-size: 42px;
     font-weight: 700;
     font-family: Nunito;
 }
@@ -74,9 +74,32 @@ body{
     color: rgb(176, 201, 11);
 }
 .left p{
+    font-family: poppins;
     color: rgba(255, 255, 255, 0.556);
 }
 
-
-
-
+.btn button{
+    margin-right: 20px;
+    background-color: orange;
+    color: white;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 22px;
+    border-radius:5px 25px 25px 25px;
+}
+.btn a{
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Nunito;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.btn a i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.pizza_piece{
+    width: 60px;
+}
